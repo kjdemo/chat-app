@@ -17,3 +17,9 @@
  * {
   box-sizing: border-box;
 }
+
+._side_bar.html.erb{
+  width: 300px;
+  background-color: #253141;
+  
+}
