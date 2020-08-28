@@ -11,6 +11,7 @@ module ChatApp
     # Initialize configuration defaults for originally generated Rails version.
     config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
+    config.action_view.field_error_proc = Proc.new { |html_tag, instance| html_tag }
     config.generators do |g|
       g.stylesheets false
       g.javascripts false
